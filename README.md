@@ -3,6 +3,14 @@
 本项目为宇树机器狗系列第一章ROS2-Gazebo仿真的基础项目仓库，该仓库会随着系列项目的推进不定时进行更新，当前计划可查看本人飞书查看项目情况[项目飞书](https://ai.feishu.cn/wiki/CVpbwLIiMiwGnekKjhMcLXTRnag?from=from_copylink)，这个项目预计将会是一个超长期项目。
 
 # 2. 依赖安装（首次在机器上运行前必做）
+## 2.0 一键安装（推荐，仅限 Ubuntu 24.04）
+在**已克隆本仓库**的目录下执行（会安装 ROS2 Jazzy、Gazebo、Navigation2、tf_transformations 等并编译工作空间）：
+```bash
+bash scripts/setup_ubuntu24.04.sh
+```
+完成后新开终端即可按第 3 节启动仿真。其他发行版或非 24.04 请按下面手动安装依赖。
+
+## 2.1 手动安装依赖
 编译前需已安装 ROS2 及本仓库所需的系统包。请按你的 ROS2 发行版执行（把 `jazzy` 换成 `humble`/`iron` 等）：
 
 若 `colcon build` 报错找不到 `nav2_bringup`，安装 Navigation2：
@@ -16,7 +24,7 @@ sudo apt install -y ros-jazzy-navigation2 ros-jazzy-nav2-bringup
 sudo apt install -y ros-jazzy-tf-transformations
 ```
 
-可选：若仍缺其他依赖，可安装完整桌面：`sudo apt install -y ros-jazzy-desktop`
+可选：若仍缺其他依赖，可安装完整桌面：`sudo apt install -y ros-jazzy-desktop`。更多依赖见 `scripts/setup_ubuntu24.04.sh`。
 安装后先 source 再编译：
 ```bash
 source /opt/ros/humble/setup.bash   # 或你的发行版
@@ -116,3 +124,14 @@ ros2 launch gazebo_sim launch.py sensors:=true world:=warehouse.sdf
 ros2 launch navigation2 go2_navigation2.launch.py 
 ```
 ![alt text](images/image-22.png)
+
+**自动巡航（Automatic cruise）**：启动导航后，在 RViz 里点击工具栏的 **「2D Goal Pose」**，在地图上点选目标位置并拖拽设定朝向，机器人会自动规划路径并行驶到该点。
+
+**两目标点往返**：仿真 + Nav2 启动后，在终端运行（A、B 为 map 下坐标，可按地图修改）：
+```bash
+ros2 run gazebo_sim patrol_shuttle.py --ros-args \
+  -p goal_a_x:=0.0 -p goal_a_y:=0.0 -p goal_b_x:=2.0 -p goal_b_y:=0.0
+```
+机器人会在 A、B 两点之间循环往返。用 `-p goal_a_x:=...` 等调整两点位置。
+
+**无目标持续巡航**：当前无内置“无目标一直走”模式。可 (1) 在地图上设多个航点，用上述往返脚本扩展为多段循环；或 (2) 用键盘/脚本持续发布固定 `cmd_vel`（直线前进），需自行处理避障或边界。

@@ -22,6 +22,7 @@ install(DIRECTORY
 )
 
 install(PROGRAMS
+  scripts/patrol_shuttle.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
