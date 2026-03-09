@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # Author: lnotspotl, abutalipovvv
+import sys
+import traceback
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float64MultiArray  
@@ -75,11 +77,16 @@ class RobotControllerNode(Node):
             self.get_logger().error(f"Error in control loop: {e}")
 
 def main(args=None):
-    rclpy.init(args=args)
-    node = RobotControllerNode()
-    rclpy.spin(node)
-    node.destroy_node()
-    rclpy.shutdown()
+    try:
+        rclpy.init(args=args)
+        node = RobotControllerNode()
+        rclpy.spin(node)
+        node.destroy_node()
+        rclpy.shutdown()
+    except Exception as e:
+        print("quadruped_controller crashed:", file=sys.stderr)
+        traceback.print_exc(file=sys.stderr)
+        raise
 
 if __name__ == "__main__":
     main()

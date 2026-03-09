@@ -222,11 +222,14 @@ def generate_launch_description():
             {'use_sim_time': use_sim_time}],
             remappings=remappings)
 
-        robot_control = GroupAction([
+        # 先启动 joint 相关，spawner 退出后再启动 quadruped_controller，避免控制器未就绪
+        robot_control_phase1 = GroupAction([
             SetRemap(src="/tf", dst="tf"),
             SetRemap(src="/tf_static", dst="tf_static"),
             joint_state_broadcaster,
             joint_group_controller,
+        ])
+        robot_control_phase2 = GroupAction([
             controller,
             cmd_vel_pub,
             odom,
@@ -240,7 +243,7 @@ def generate_launch_description():
             spawn_entity,
             ros_gz_bridge,
             start_gazebo_ros_image_bridge_cmd,
-            robot_control,
+            robot_control_phase1,
             rviz,
         ])
 
@@ -254,6 +257,14 @@ def generate_launch_description():
                 )
             )
             ld.add_action(spawn_robot_event)
+
+        # joint_group_controller spawner 退出后再启动 quadruped_controller，确保 joint 控制器已加载
+        ld.add_action(RegisterEventHandler(
+            event_handler=OnProcessExit(
+                target_action=joint_group_controller,
+                on_exit=[robot_control_phase2]
+            )
+        ))
 
         last_action = joint_group_controller
 
