@@ -51,6 +51,11 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/ro
 ```bash
 ros2 service call /robot1/robot_behavior_command quadropted_msgs/srv/RobotBehaviorCommand "{command: 'walk'}"
 ```
+
+**若按键盘画面中的机器人不动**：① 先发一次「走」再控（**发服务前必须在本终端先 `source install/setup.bash`**，否则会报 The passed service type is invalid）：`ros2 service call /robot1/robot_behavior_command quadropted_msgs/srv/RobotBehaviorCommand "{command: 'walk'}"`，然后再按键盘。② 确保键盘控制的终端处于焦点（用鼠标点一下该终端再按 i/j/k/l 等）。③ 在第三个终端用 `ros2 topic echo /robot1/cmd_vel` 看按键时是否有输出，若无则检查该终端是否已 `source install/setup.bash` 且 remap 正确。
+
+**若 `ros2 service list` 里没有 `/robot1/robot_behavior_command`**：说明 quadruped_controller 节点未运行或已退出。请先 `ros2 node list | grep quad` 确认是否有 `/robot1/quadruped_controller`；若无，在**运行仿真的终端**里向上滚动查看是否有该节点的 Python 报错，或另开终端执行 `ros2 run quadropted_controller robot_controller_gazebo.py --ros-args -r __ns:=/robot1 -p use_sim_time:=true`（仿真保持运行）查看报错内容。修复后需重新 `colcon build` 并重启仿真。
+
 ## 3.2 docker使用
 在使用docker前请简单的阅读docker搭建流程指南，因为每个人的情况还是会有些许差别，而为我使用的是外挂卷的形式完成的任务。
 使用下面的命令可以很快的帮您完成想要的操作（将 `go2_sim_ws` 替换为你的仓库根目录名）。

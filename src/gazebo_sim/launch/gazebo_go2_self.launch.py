@@ -155,6 +155,7 @@ def generate_launch_description():
             name='quadruped_controller',
             namespace=namespace,
             output='screen',
+            parameters=[{'use_sim_time': use_sim_time}],
             remappings=remappings
         )
 
