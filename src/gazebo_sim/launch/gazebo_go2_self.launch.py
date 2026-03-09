@@ -7,7 +7,8 @@ from launch.actions import (
     DeclareLaunchArgument,
     ExecuteProcess,
     GroupAction,
-    RegisterEventHandler
+    RegisterEventHandler,
+    TimerAction,
 )
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
@@ -237,13 +238,14 @@ def generate_launch_description():
             fake_bms,
         ])
 
-        # 当前机器人动作组
+        # 当前机器人动作组；phase2 用 6 秒延迟启动，确保 joint 控制器已加载（不依赖 spawner 退出事件）
         robot_group = GroupAction([
             node_robot_state_publisher,
             spawn_entity,
             ros_gz_bridge,
             start_gazebo_ros_image_bridge_cmd,
             robot_control_phase1,
+            TimerAction(period=6.0, actions=[robot_control_phase2]),
             rviz,
         ])
 
@@ -257,14 +259,6 @@ def generate_launch_description():
                 )
             )
             ld.add_action(spawn_robot_event)
-
-        # joint_group_controller spawner 退出后再启动 quadruped_controller，确保 joint 控制器已加载
-        ld.add_action(RegisterEventHandler(
-            event_handler=OnProcessExit(
-                target_action=joint_group_controller,
-                on_exit=[robot_control_phase2]
-            )
-        ))
 
         last_action = joint_group_controller
 
