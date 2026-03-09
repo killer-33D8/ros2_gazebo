@@ -3,13 +3,20 @@
 本项目为宇树机器狗系列第一章ROS2-Gazebo仿真的基础项目仓库，该仓库会随着系列项目的推进不定时进行更新，当前计划可查看本人飞书查看项目情况[项目飞书](https://ai.feishu.cn/wiki/CVpbwLIiMiwGnekKjhMcLXTRnag?from=from_copylink)，这个项目预计将会是一个超长期项目。
 
 # 2. 依赖安装（首次在机器上运行前必做）
-编译前需已安装 ROS2 及本仓库所需的系统包。若 `colcon build` 报错找不到 `nav2_bringup`，说明未安装 Navigation2，请在**当前机器**上执行（把 `humble` 换成你的 ROS2 发行版，如 `iron`、`jazzy`）：
+编译前需已安装 ROS2 及本仓库所需的系统包。请按你的 ROS2 发行版执行（把 `jazzy` 换成 `humble`/`iron` 等）：
+
+若 `colcon build` 报错找不到 `nav2_bringup`，安装 Navigation2：
 ```bash
 sudo apt update
-sudo apt install -y ros-humble-navigation2 ros-humble-nav2-bringup
-# 若仍缺其他依赖，可安装完整桌面（可选）
-# sudo apt install -y ros-humble-desktop
+sudo apt install -y ros-jazzy-navigation2 ros-jazzy-nav2-bringup
 ```
+
+若运行时报错 **`ModuleNotFoundError: No module named 'tf_transformations'`**，安装：
+```bash
+sudo apt install -y ros-jazzy-tf-transformations
+```
+
+可选：若仍缺其他依赖，可安装完整桌面：`sudo apt install -y ros-jazzy-desktop`
 安装后先 source 再编译：
 ```bash
 source /opt/ros/humble/setup.bash   # 或你的发行版
