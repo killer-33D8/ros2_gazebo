@@ -7,7 +7,8 @@ from launch.actions import (
     DeclareLaunchArgument,
     ExecuteProcess,
     RegisterEventHandler,
-    OpaqueFunction  
+    OpaqueFunction,
+    SetEnvironmentVariable,
 )
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
@@ -50,6 +51,13 @@ def choose_launch_file(context, *args, **kwargs):
 def generate_launch_description():
     ld = LaunchDescription()
     package_name = 'gazebo_sim'
+
+    # 让 Gazebo 能解析 model:// 路径（如 model://rmuc_2025）
+    pkg_share = get_package_share_directory(package_name)
+    models_path = os.path.join(pkg_share, 'models')
+    existing = os.environ.get('GZ_SIM_RESOURCE_PATH', '')
+    gz_resource_path = models_path if not existing else models_path + os.pathsep + existing
+    ld.add_action(SetEnvironmentVariable('GZ_SIM_RESOURCE_PATH', gz_resource_path))
 
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
     ld.add_action(DeclareLaunchArgument(

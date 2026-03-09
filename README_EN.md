@@ -1,14 +1,32 @@
 # 1. Project Description
 This repository is the foundational ROS2-Gazebo simulation project for Chapter 1 of the Unitree robot dog series. The repository will be updated from time to time as the full project series progresses. You can check the current project plan on my Feishu page: [Feishu Project Page](https://ai.feishu.cn/wiki/CVpbwLIiMiwGnekKjhMcLXTRnag?from=from_copylink). This is expected to be a very long-term project.
 
-# 2. How to Use the Project
-## 2.1 Build and Run Directly
-Go to the workspace:
+# 2. Dependencies (required before first build)
+You need ROS2 and the Navigation2 stack installed. If `colcon build` fails with "Could not find nav2_bringup", install Navigation2 **on that machine** (replace `humble` with your ROS2 distro, e.g. `iron`, `jazzy`):
 ```bash
-cd go2_sim_ws
+sudo apt update
+sudo apt install -y ros-humble-navigation2 ros-humble-nav2-bringup
+# If other deps are missing, you can install the full desktop (optional):
+# sudo apt install -y ros-humble-desktop
+```
+Then source and build:
+```bash
+source /opt/ros/humble/setup.bash   # or your distro
+cd ~/Desktop/ROS2-Gazebo-GO2
+colcon build
+```
+
+# 3. How to Use the Project
+## 3.1 Build and Run Directly
+**Note:** The workspace is the repository root. If you cloned the repo (e.g. into `ROS2-Gazebo-GO2`), use that path; you do not need a folder named `go2_sim_ws`.
+
+Go to the workspace (replace `go2_sim_ws` with your actual repo path, e.g. `ROS2-Gazebo-GO2`):
+```bash
+cd go2_sim_ws   # or: cd ROS2-Gazebo-GO2 (your repo root)
 colcon build
 source install/setup.bash
-export CYCLONEDDS_URI=file://~/go2_sim_ws/src/docker/cyclonedds.xml
+# Use absolute path so it works on any clone path (e.g. remote server)
+export CYCLONEDDS_URI=file://$(pwd)/src/docker/cyclonedds.xml
 ```
 
 ![alt text](images/image-17.png)
@@ -30,7 +48,7 @@ Both LiDARs can publish `LaserScan` and `PointCloud2` data simultaneously, makin
 
 Use keyboard teleoperation:
 ```bash
-cd go2_sim_ws
+cd go2_sim_ws   # or your workspace path (repo root)
 source install/local_setup.bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/robot1/cmd_vel
 ```
@@ -40,12 +58,12 @@ After running the command above, you can control the robot dog with your keyboar
 ros2 service call /robot1/robot_behavior_command quadropted_msgs/srv/RobotBehaviorCommand "{command: 'walk'}"
 ```
 
-## 2.2 Using Docker
+## 3.2 Using Docker
 Before using Docker, please read the Docker setup guide briefly, since environments may differ. In my setup, I use mounted volumes.
 
-The following commands cover the main Docker workflow:
+The following commands cover the main Docker workflow (replace `go2_sim_ws` with your repo root name):
 ```bash
-cd go2_sim_ws/src/docker
+cd go2_sim_ws/src/docker   # or: cd ROS2-Gazebo-GO2/src/docker
 docker compose up -d --build --remove-orphans        # Build containers
 docker compose up -d go2_sim                        # Start container in detached mode
 docker compose ps                                    # List containers
@@ -83,7 +101,7 @@ Once the command runs, you can control the robot dog with keyboard input. Behavi
 ros2 service call /robot1/robot_behavior_command quadropted_msgs/srv/RobotBehaviorCommand "{command: 'walk'}"
 ```
 
-## 2.3 Mapping and Navigation
+## 3.3 Mapping and Navigation
 For mapping, run the following commands in terminal:
 ```bash
 ros2 launch gazebo_sim launch.py sensors:=true world:=warehouse.sdf
