@@ -1,0 +1,70 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+-- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/wyattsher/Desktop/ros2_gazebo/build/go1_description
+-- Install configuration: ""
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//meshes
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//meshes/thigh.dae
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//meshes/calf.dae
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//meshes/depthCamera.dae
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//meshes/thigh_mirror.dae
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//meshes/trunk.dae
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//meshes/hip.dae
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//meshes/ultraSound.dae
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//config
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//config/robot_control.yaml
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//config/gz_bridge.yaml
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//config/gaz_ros2_ctl_use_sim.yaml
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//xacro
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//xacro/robot.xacro
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//xacro/transmission.xacro
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//xacro/leg.xacro
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//xacro/depthCamera.xacro
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//xacro/ultraSound.xacro
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//xacro/materials.xacro
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//xacro/const.xacro
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//xacro/gazebo.xacro
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//launch
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//launch/joints_move.launch.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description//launch/launch_sim.launch.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/ament_index/resource_index/package_run_dependencies/go1_description
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/ament_index/resource_index/parent_prefix_path/go1_description
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description/environment/ament_prefix_path.sh
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description/environment/ament_prefix_path.dsv
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description/environment/path.sh
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description/environment/path.dsv
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description/local_setup.bash
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description/local_setup.sh
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description/local_setup.zsh
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description/local_setup.dsv
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description/package.dsv
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/ament_index/resource_index/packages/go1_description
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description/cmake/go1_descriptionConfig.cmake
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description/cmake/go1_descriptionConfig-version.cmake
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/go1_description/share/go1_description/package.xml

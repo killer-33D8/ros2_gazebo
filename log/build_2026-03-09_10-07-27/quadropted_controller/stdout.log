@@ -1,0 +1,85 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/wyattsher/Desktop/ros2_gazebo/build/quadropted_controller
+-- Install configuration: ""
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/cmd_vel_pub.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/ForwardKinematics
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/ForwardKinematics/__pycache__
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/ForwardKinematics/__pycache__/robot_FK.cpython-310.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/ForwardKinematics/__pycache__/robot_FK.cpython-312.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/ForwardKinematics/robot_FK.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/InverseKinematics
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/InverseKinematics/__pycache__
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/InverseKinematics/__pycache__/robot_IK.cpython-312.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/InverseKinematics/__pycache__/robot_IK.cpython-310.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/InverseKinematics/robot_IK.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RoboticsUtilities
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RoboticsUtilities/__pycache__
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RoboticsUtilities/__pycache__/Transformations.cpython-310.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RoboticsUtilities/__pycache__/Transformations.cpython-312.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RoboticsUtilities/Transformations.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/robot_controller_gazebo.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/.QuadrupedOdometryNode.py.swp
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/QuadrupedOdometryNode.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/StateCommand.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/RestController.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/StandController.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/__pycache__
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/__pycache__/StandController.cpython-312.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/__pycache__/PIDController.cpython-312.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/__pycache__/RobotController.cpython-310.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/__pycache__/StandController.cpython-310.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/__pycache__/StateCommand.cpython-312.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/__pycache__/RestController.cpython-310.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/__pycache__/RobotController.cpython-312.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/__pycache__/CrawlGaitController.cpython-310.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/__pycache__/TrotGaitController.cpython-312.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/__pycache__/StateCommand.cpython-310.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/__pycache__/TrotGaitController.cpython-310.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/__pycache__/CrawlGaitController.cpython-312.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/__pycache__/GaitController.cpython-310.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/__pycache__/RestController.cpython-312.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/__pycache__/GaitController.cpython-312.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/__pycache__/PIDController.cpython-310.pyc
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/CrawlGaitController.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/RobotController.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/GaitController.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/PIDController.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/RobotController/TrotGaitController.py
+-- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/robot_controller_gazebo.py
+-- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/QuadrupedOdometryNode.py
+-- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/lib/quadropted_controller/cmd_vel_pub.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/share/quadropted_controller//launch
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/share/quadropted_controller//launch/robot_controller.launch.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/share/ament_index/resource_index/package_run_dependencies/quadropted_controller
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/share/ament_index/resource_index/parent_prefix_path/quadropted_controller
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/share/quadropted_controller/environment/ament_prefix_path.sh
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/share/quadropted_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/share/quadropted_controller/environment/path.sh
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/share/quadropted_controller/environment/path.dsv
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/share/quadropted_controller/local_setup.bash
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/share/quadropted_controller/local_setup.sh
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/share/quadropted_controller/local_setup.zsh
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/share/quadropted_controller/local_setup.dsv
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/share/quadropted_controller/package.dsv
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/share/ament_index/resource_index/packages/quadropted_controller
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/share/quadropted_controller/cmake/quadropted_controllerConfig.cmake
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/share/quadropted_controller/cmake/quadropted_controllerConfig-version.cmake
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_controller/share/quadropted_controller/package.xml

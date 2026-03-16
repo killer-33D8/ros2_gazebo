@@ -1,0 +1,5 @@
+/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_msgs/rosidl_adapter/quadropted_msgs:msg/RobotVelocity.idl
+/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_msgs/rosidl_adapter/quadropted_msgs:msg/RobotGaitCommand.idl
+/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_msgs/rosidl_adapter/quadropted_msgs:msg/RobotModeCommand.idl
+/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_msgs/rosidl_adapter/quadropted_msgs:msg/RobotFootContact.idl
+/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_msgs/rosidl_adapter/quadropted_msgs:srv/RobotBehaviorCommand.idl

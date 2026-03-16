@@ -1,0 +1,9 @@
+/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_controller/CMakeFiles/uninstall.dir
+/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_controller/CMakeFiles/quadropted_controller_uninstall.dir
+/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_controller/CMakeFiles/test.dir
+/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_controller/CMakeFiles/edit_cache.dir
+/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_controller/CMakeFiles/rebuild_cache.dir
+/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_controller/CMakeFiles/list_install_components.dir
+/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_controller/CMakeFiles/install.dir
+/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_controller/CMakeFiles/install/local.dir
+/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_controller/CMakeFiles/install/strip.dir

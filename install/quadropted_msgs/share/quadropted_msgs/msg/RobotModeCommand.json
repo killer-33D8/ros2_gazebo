@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "quadropted_msgs/msg/RobotModeCommand",
+      "fields": [
+        {
+          "name": "mode",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "robot_id",
+          "type": {
+            "type_id": 5,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "quadropted_msgs/msg/RobotModeCommand",
+      "hash_string": "RIHS01_5d0003cd8ef15f271c0a231a2a1ab22b31b47a87e4ac5bae4eebc37ab026b84e"
+    }
+  ]
+}

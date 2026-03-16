@@ -1,0 +1,385 @@
+[0.012s] Invoking command in '/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wyattsher/Desktop/ros2_gazebo/src/quadropted_msgs -DCMAKE_INSTALL_PREFIX=/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs
+[0.055s] -- The C compiler identification is GNU 13.3.0
+[0.100s] -- The CXX compiler identification is GNU 13.3.0
+[0.114s] -- Detecting C compiler ABI info
+[0.182s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.194s] -- Detecting CXX compiler ABI info
+[0.263s] -- Detecting CXX compiler ABI info - done
+[0.268s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.268s] -- Detecting CXX compile features
+[0.269s] -- Detecting CXX compile features - done
+[0.272s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.371s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.450s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.488s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.500s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.514s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.529s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.564s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.585s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.955s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.450s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.642s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.645s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.720s] -- Found PythonExtra: /usr/bin/python3  
+[1.953s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.987s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.008s] -- Added test 'lint_cmake' to check CMake code style
+[2.009s] -- Added test 'xmllint' to check XML markup files
+[2.011s] -- Configuring done (2.0s)
+[2.037s] -- Generating done (0.0s)
+[2.043s] -- Build files have been written to: /home/wyattsher/Desktop/ros2_gazebo/build/quadropted_msgs
+[2.050s] Invoked command in '/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wyattsher/Desktop/ros2_gazebo/src/quadropted_msgs -DCMAKE_INSTALL_PREFIX=/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs
+[2.050s] Invoking command in '/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wyattsher/Desktop/ros2_gazebo/build/quadropted_msgs -- -j32 -l32
+[2.087s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.093s] [  1%] Built target ament_cmake_python_copy_quadropted_msgs
+[2.194s] running egg_info
+[2.194s] creating quadropted_msgs.egg-info
+[2.202s] writing quadropted_msgs.egg-info/PKG-INFO
+[2.202s] writing dependency_links to quadropted_msgs.egg-info/dependency_links.txt
+[2.203s] writing top-level names to quadropted_msgs.egg-info/top_level.txt
+[2.203s] writing manifest file 'quadropted_msgs.egg-info/SOURCES.txt'
+[2.227s] reading manifest file 'quadropted_msgs.egg-info/SOURCES.txt'
+[2.228s] writing manifest file 'quadropted_msgs.egg-info/SOURCES.txt'
+[2.243s] [  1%] Built target ament_cmake_python_build_quadropted_msgs_egg
+[2.254s] [  1%] Built target quadropted_msgs__rosidl_generator_type_description
+[2.262s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.268s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.524s] [  4%] Built target quadropted_msgs__cpp
+[2.569s] [  5%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_velocity__description.c.o[0m
+[2.570s] [  6%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_velocity__functions.c.o[0m
+[2.570s] [  8%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_gait_command__description.c.o[0m
+[2.570s] [ 13%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_velocity__type_support.c.o[0m
+[2.570s] [ 13%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_gait_command__functions.c.o[0m
+[2.570s] [ 13%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_gait_command__type_support.c.o[0m
+[2.570s] [ 13%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_mode_command__description.c.o[0m
+[2.570s] [ 14%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_mode_command__functions.c.o[0m
+[2.571s] [ 16%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_mode_command__type_support.c.o[0m
+[2.571s] [ 17%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_foot_contact__description.c.o[0m
+[2.571s] [ 20%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_foot_contact__functions.c.o[0m
+[2.571s] [ 20%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_foot_contact__type_support.c.o[0m
+[2.571s] [ 24%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/srv/detail/robot_behavior_command__description.c.o[0m
+[2.572s] [ 24%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/srv/detail/robot_behavior_command__functions.c.o[0m
+[2.572s] [ 24%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/srv/detail/robot_behavior_command__type_support.c.o[0m
+[2.619s] [ 25%] [32m[1mLinking C shared library libquadropted_msgs__rosidl_generator_c.so[0m
+[2.645s] [ 25%] Built target quadropted_msgs__rosidl_generator_c
+[2.653s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.653s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.653s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.653s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.653s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.654s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.880s] [ 35%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadropted_msgs/msg/robot_gait_command__type_support.cpp.o[0m
+[2.881s] [ 36%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadropted_msgs/msg/robot_mode_command__type_support.cpp.o[0m
+[2.881s] [ 39%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadropted_msgs/msg/robot_velocity__type_support.cpp.o[0m
+[2.881s] [ 39%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadropted_msgs/msg/robot_foot_contact__type_support.cpp.o[0m
+[2.881s] [ 40%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadropted_msgs/srv/robot_behavior_command__type_support.cpp.o[0m
+[2.883s] [ 43%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadropted_msgs/msg/robot_velocity__type_support.cpp.o[0m
+[2.883s] [ 43%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadropted_msgs/msg/robot_mode_command__type_support.cpp.o[0m
+[2.883s] [ 44%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadropted_msgs/msg/robot_gait_command__type_support.cpp.o[0m
+[2.884s] [ 45%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadropted_msgs/msg/robot_foot_contact__type_support.cpp.o[0m
+[2.884s] [ 47%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadropted_msgs/srv/robot_behavior_command__type_support.cpp.o[0m
+[2.916s] [ 48%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadropted_msgs/msg/detail/robot_gait_command__type_support.cpp.o[0m
+[2.916s] [ 50%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadropted_msgs/msg/detail/robot_foot_contact__type_support.cpp.o[0m
+[2.917s] [ 51%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadropted_msgs/srv/detail/robot_behavior_command__type_support.cpp.o[0m
+[2.917s] [ 54%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadropted_msgs/msg/detail/robot_mode_command__type_support.cpp.o[0m
+[2.918s] [ 54%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadropted_msgs/msg/detail/robot_velocity__type_support.cpp.o[0m
+[2.926s] [ 55%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_foot_contact__type_support.c.o[0m
+[2.926s] [ 59%] [32m[1mLinking CXX shared library libquadropted_msgs__rosidl_typesupport_c.so[0m
+[2.926s] [ 59%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_velocity__type_support.c.o[0m
+[2.926s] [ 59%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_gait_command__type_support.c.o[0m
+[2.926s] [ 60%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_mode_command__type_support.c.o[0m
+[2.926s] [ 62%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/srv/detail/robot_behavior_command__type_support.c.o[0m
+[2.967s] [ 63%] [32m[1mLinking C shared library libquadropted_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.967s] [ 63%] Built target quadropted_msgs__rosidl_typesupport_c
+[2.988s] [ 67%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadropted_msgs/msg/detail/dds_fastrtps/robot_gait_command__type_support.cpp.o[0m
+[2.988s] [ 67%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadropted_msgs/msg/detail/dds_fastrtps/robot_mode_command__type_support.cpp.o[0m
+[2.989s] [ 67%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadropted_msgs/msg/detail/dds_fastrtps/robot_velocity__type_support.cpp.o[0m
+[2.989s] [ 68%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadropted_msgs/msg/detail/dds_fastrtps/robot_foot_contact__type_support.cpp.o[0m
+[2.989s] [ 70%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadropted_msgs/srv/detail/dds_fastrtps/robot_behavior_command__type_support.cpp.o[0m
+[2.997s] [ 70%] Built target quadropted_msgs__rosidl_typesupport_introspection_c
+[3.005s] [ 71%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadropted_msgs/msg/detail/robot_gait_command__type_support_c.cpp.o[0m
+[3.007s] [ 72%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadropted_msgs/msg/detail/robot_mode_command__type_support_c.cpp.o[0m
+[3.008s] [ 75%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadropted_msgs/msg/detail/robot_foot_contact__type_support_c.cpp.o[0m
+[3.008s] [ 75%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadropted_msgs/msg/detail/robot_velocity__type_support_c.cpp.o[0m
+[3.008s] [ 77%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadropted_msgs/srv/detail/robot_behavior_command__type_support_c.cpp.o[0m
+[3.168s] [ 78%] [32m[1mLinking CXX shared library libquadropted_msgs__rosidl_typesupport_cpp.so[0m
+[3.217s] [ 79%] [32m[1mLinking CXX shared library libquadropted_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.225s] [ 79%] Built target quadropted_msgs__rosidl_typesupport_cpp
+[3.274s] [ 79%] Built target quadropted_msgs__rosidl_typesupport_introspection_cpp
+[3.364s] [ 81%] [32m[1mLinking CXX shared library libquadropted_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.385s] [ 82%] [32m[1mLinking CXX shared library libquadropted_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.411s] [ 82%] Built target quadropted_msgs__rosidl_typesupport_fastrtps_c
+[3.430s] [ 82%] Built target quadropted_msgs__rosidl_typesupport_fastrtps_cpp
+[3.444s] [ 82%] Built target quadropted_msgs
+[3.457s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.850s] [ 83%] Built target quadropted_msgs__py
+[3.864s] [ 87%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadropted_msgs/msg/_robot_velocity_s.c.o[0m
+[3.864s] [ 87%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadropted_msgs/msg/_robot_mode_command_s.c.o[0m
+[3.864s] [ 87%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadropted_msgs/msg/_robot_gait_command_s.c.o[0m
+[3.864s] [ 89%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadropted_msgs/msg/_robot_foot_contact_s.c.o[0m
+[3.864s] [ 90%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadropted_msgs/srv/_robot_behavior_command_s.c.o[0m
+[3.949s] [ 91%] [32m[1mLinking C shared library libquadropted_msgs__rosidl_generator_py.so[0m
+[3.979s] [ 91%] Built target quadropted_msgs__rosidl_generator_py
+[3.993s] [ 93%] [32mBuilding C object CMakeFiles/quadropted_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.993s] [ 95%] [32mBuilding C object CMakeFiles/quadropted_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.993s] [ 95%] [32mBuilding C object CMakeFiles/quadropted_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.060s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[4.060s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_c.so[0m
+[4.062s] [100%] [32m[1mLinking C shared module rosidl_generator_py/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.081s] [100%] Built target quadropted_msgs_s__rosidl_typesupport_introspection_c
+[4.081s] [100%] Built target quadropted_msgs_s__rosidl_typesupport_c
+[4.084s] [100%] Built target quadropted_msgs_s__rosidl_typesupport_fastrtps_c
+[4.093s] Invoked command in '/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wyattsher/Desktop/ros2_gazebo/build/quadropted_msgs -- -j32 -l32
+[4.093s] Invoking command in '/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wyattsher/Desktop/ros2_gazebo/build/quadropted_msgs
+[4.098s] -- Install configuration: ""
+[4.098s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/ament_index/resource_index/rosidl_interfaces/quadropted_msgs
+[4.099s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/msg/RobotVelocity.json
+[4.099s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/msg/RobotGaitCommand.json
+[4.099s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/msg/RobotModeCommand.json
+[4.099s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/msg/RobotFootContact.json
+[4.099s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/srv/RobotBehaviorCommand.json
+[4.099s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs
+[4.099s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv
+[4.099s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/robot_behavior_command.h
+[4.099s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail
+[4.099s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__type_support.c
+[4.099s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__type_support.h
+[4.099s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__functions.h
+[4.099s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__struct.h
+[4.100s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__functions.c
+[4.100s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__description.c
+[4.100s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg
+[4.100s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_gait_command.h
+[4.100s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.100s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_velocity.h
+[4.100s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_mode_command.h
+[4.100s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_foot_contact.h
+[4.100s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail
+[4.100s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__functions.h
+[4.100s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__functions.c
+[4.100s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__type_support.h
+[4.100s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__functions.c
+[4.100s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__type_support.c
+[4.100s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__struct.h
+[4.101s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__type_support.c
+[4.101s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__type_support.h
+[4.101s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__functions.h
+[4.101s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__description.c
+[4.101s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__type_support.c
+[4.101s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__functions.c
+[4.101s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__functions.h
+[4.101s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__functions.h
+[4.101s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__struct.h
+[4.101s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__description.c
+[4.101s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__type_support.h
+[4.101s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__struct.h
+[4.101s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__struct.h
+[4.101s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__description.c
+[4.101s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__type_support.h
+[4.102s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__type_support.c
+[4.102s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__description.c
+[4.102s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__functions.c
+[4.102s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/environment/library_path.sh
+[4.102s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/environment/library_path.dsv
+[4.102s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_generator_c.so
+[4.102s] -- Set non-toolchain portion of runtime path of "/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_generator_c.so" to ""
+[4.102s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs
+[4.102s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv
+[4.102s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail
+[4.102s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__rosidl_typesupport_fastrtps_c.h
+[4.103s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg
+[4.103s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail
+[4.103s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__rosidl_typesupport_fastrtps_c.h
+[4.103s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__rosidl_typesupport_fastrtps_c.h
+[4.103s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__rosidl_typesupport_fastrtps_c.h
+[4.103s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__rosidl_typesupport_fastrtps_c.h
+[4.103s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.103s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_fastrtps_c.so
+[4.103s] -- Set non-toolchain portion of runtime path of "/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.103s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs
+[4.103s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv
+[4.103s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/robot_behavior_command.hpp
+[4.103s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail
+[4.103s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__traits.hpp
+[4.103s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__builder.hpp
+[4.103s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__struct.hpp
+[4.104s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__type_support.hpp
+[4.104s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg
+[4.104s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.104s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_velocity.hpp
+[4.104s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_foot_contact.hpp
+[4.104s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_gait_command.hpp
+[4.104s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_mode_command.hpp
+[4.104s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail
+[4.104s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__type_support.hpp
+[4.104s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__builder.hpp
+[4.104s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__struct.hpp
+[4.104s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__traits.hpp
+[4.104s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__type_support.hpp
+[4.104s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__type_support.hpp
+[4.104s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__struct.hpp
+[4.104s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__struct.hpp
+[4.105s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__type_support.hpp
+[4.105s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__traits.hpp
+[4.105s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__builder.hpp
+[4.105s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__builder.hpp
+[4.105s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__builder.hpp
+[4.105s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__traits.hpp
+[4.105s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__struct.hpp
+[4.105s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__traits.hpp
+[4.105s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs
+[4.105s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv
+[4.105s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail
+[4.105s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/dds_fastrtps
+[4.105s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__rosidl_typesupport_fastrtps_cpp.hpp
+[4.105s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg
+[4.105s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.105s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail
+[4.105s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/dds_fastrtps
+[4.105s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__rosidl_typesupport_fastrtps_cpp.hpp
+[4.106s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__rosidl_typesupport_fastrtps_cpp.hpp
+[4.106s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__rosidl_typesupport_fastrtps_cpp.hpp
+[4.106s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__rosidl_typesupport_fastrtps_cpp.hpp
+[4.106s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.106s] -- Set non-toolchain portion of runtime path of "/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.106s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs
+[4.106s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv
+[4.106s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail
+[4.106s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__type_support.c
+[4.106s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__rosidl_typesupport_introspection_c.h
+[4.106s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg
+[4.106s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.106s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail
+[4.106s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__type_support.c
+[4.106s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__rosidl_typesupport_introspection_c.h
+[4.106s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__type_support.c
+[4.106s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__type_support.c
+[4.107s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__rosidl_typesupport_introspection_c.h
+[4.107s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__rosidl_typesupport_introspection_c.h
+[4.107s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__rosidl_typesupport_introspection_c.h
+[4.107s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__type_support.c
+[4.107s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_introspection_c.so
+[4.107s] -- Set non-toolchain portion of runtime path of "/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.107s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_c.so
+[4.107s] -- Set non-toolchain portion of runtime path of "/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_c.so" to ""
+[4.107s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs
+[4.107s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv
+[4.107s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail
+[4.107s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__rosidl_typesupport_introspection_cpp.hpp
+[4.107s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__type_support.cpp
+[4.107s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg
+[4.107s] -- Up-to-date: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail
+[4.107s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__type_support.cpp
+[4.108s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__type_support.cpp
+[4.108s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__rosidl_typesupport_introspection_cpp.hpp
+[4.108s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__type_support.cpp
+[4.108s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__rosidl_typesupport_introspection_cpp.hpp
+[4.108s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__type_support.cpp
+[4.108s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__rosidl_typesupport_introspection_cpp.hpp
+[4.108s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__rosidl_typesupport_introspection_cpp.hpp
+[4.108s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_introspection_cpp.so
+[4.108s] -- Set non-toolchain portion of runtime path of "/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.108s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_cpp.so
+[4.109s] -- Set non-toolchain portion of runtime path of "/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_cpp.so" to ""
+[4.109s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/environment/pythonpath.sh
+[4.109s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/environment/pythonpath.dsv
+[4.109s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs-0.1.0-py3.12.egg-info
+[4.109s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs-0.1.0-py3.12.egg-info/top_level.txt
+[4.109s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs-0.1.0-py3.12.egg-info/PKG-INFO
+[4.109s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs-0.1.0-py3.12.egg-info/SOURCES.txt
+[4.109s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs-0.1.0-py3.12.egg-info/dependency_links.txt
+[4.109s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs
+[4.109s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/__init__.py
+[4.109s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/srv
+[4.109s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/srv/__init__.py
+[4.109s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/srv/_robot_behavior_command.py
+[4.109s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/srv/_robot_behavior_command_s.c
+[4.109s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_c.c
+[4.110s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.110s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.110s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_c.so
+[4.110s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_introspection_c.so
+[4.110s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg
+[4.110s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/__init__.py
+[4.110s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_foot_contact.py
+[4.110s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_mode_command_s.c
+[4.110s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_foot_contact_s.c
+[4.110s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_velocity.py
+[4.110s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_mode_command.py
+[4.110s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_gait_command_s.c
+[4.110s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_velocity_s.c
+[4.110s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_gait_command.py
+[4.111s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_fastrtps_c.so
+[4.134s] Listing '/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs'...
+[4.134s] Compiling '/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/__init__.py'...
+[4.134s] Listing '/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg'...
+[4.134s] Compiling '/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/__init__.py'...
+[4.134s] Compiling '/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_foot_contact.py'...
+[4.134s] Compiling '/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_gait_command.py'...
+[4.134s] Compiling '/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_mode_command.py'...
+[4.134s] Compiling '/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_velocity.py'...
+[4.134s] Listing '/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/srv'...
+[4.134s] Compiling '/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/srv/__init__.py'...
+[4.134s] Compiling '/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/srv/_robot_behavior_command.py'...
+[4.137s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_fastrtps_c.so
+[4.138s] -- Set non-toolchain portion of runtime path of "/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[4.138s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_introspection_c.so
+[4.138s] -- Set non-toolchain portion of runtime path of "/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[4.138s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_c.so
+[4.138s] -- Set non-toolchain portion of runtime path of "/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_c.so" to ""
+[4.138s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_generator_py.so
+[4.139s] -- Set non-toolchain portion of runtime path of "/home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_generator_py.so" to ""
+[4.139s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/msg/RobotVelocity.idl
+[4.139s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/msg/RobotGaitCommand.idl
+[4.139s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/msg/RobotModeCommand.idl
+[4.139s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/msg/RobotFootContact.idl
+[4.139s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/srv/RobotBehaviorCommand.idl
+[4.139s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/msg/RobotVelocity.msg
+[4.139s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/msg/RobotGaitCommand.msg
+[4.139s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/msg/RobotModeCommand.msg
+[4.139s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/msg/RobotFootContact.msg
+[4.140s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/srv/RobotBehaviorCommand.srv
+[4.140s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/ament_index/resource_index/package_run_dependencies/quadropted_msgs
+[4.140s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/ament_index/resource_index/parent_prefix_path/quadropted_msgs
+[4.140s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/environment/ament_prefix_path.sh
+[4.140s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/environment/ament_prefix_path.dsv
+[4.140s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/environment/path.sh
+[4.140s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/environment/path.dsv
+[4.140s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/local_setup.bash
+[4.140s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/local_setup.sh
+[4.141s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/local_setup.zsh
+[4.141s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/local_setup.dsv
+[4.141s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/package.dsv
+[4.141s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/ament_index/resource_index/packages/quadropted_msgs
+[4.141s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_generator_cExport.cmake
+[4.141s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.141s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.141s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.142s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_generator_cppExport.cmake
+[4.142s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.142s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.142s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.142s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.142s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_cExport.cmake
+[4.142s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.142s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.143s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.143s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_cppExport.cmake
+[4.143s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.143s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_generator_pyExport.cmake
+[4.143s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.143s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/rosidl_cmake-extras.cmake
+[4.143s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.143s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.143s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.144s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.144s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.144s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.144s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgsConfig.cmake
+[4.144s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgsConfig-version.cmake
+[4.144s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/quadropted_msgs/share/quadropted_msgs/package.xml
+[4.145s] Invoked command in '/home/wyattsher/Desktop/ros2_gazebo/build/quadropted_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wyattsher/Desktop/ros2_gazebo/build/quadropted_msgs

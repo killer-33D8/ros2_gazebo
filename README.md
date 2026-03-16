@@ -1,4 +1,31 @@
 [English Version/英文版](README_EN.md)
+
+# Important, how to run after exit:
+
+Terminal 1：启动 Gazebo
+pkill -f "ros2 launch ros_gz_sim" || true
+pkill -f "gz sim" || true
+pkill -f "gz-gui" || true
+pkill -f "gz-server" || true
+
+cd ~/Desktop/ros2_gazebo
+source install/setup.bash
+export CYCLONEDDS_URI=file://$(pwd)/src/docker/cyclonedds.xml
+ros2 launch gazebo_sim launch.py sensors:=true world:=warehouse.sdf
+Terminal 2：准备环境变量
+cd ~/Desktop/ros2_gazebo
+source install/setup.bash
+export CYCLONEDDS_URI=file://$(pwd)/src/docker/cyclonedds.xml
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/robot1/cmd_vel
+
+# How to push to my github(for myself only):
+cd /Users/jimharrison/Desktop/CityU/ROS2-Gazebo-GO2
+git add .
+git commit -m "你的提交说明"
+git push ros2_gazebo main
+
+
+
 # 1. 项目描述
 本项目为宇树机器狗系列第一章ROS2-Gazebo仿真的基础项目仓库，该仓库会随着系列项目的推进不定时进行更新，当前计划可查看本人飞书查看项目情况[项目飞书](https://ai.feishu.cn/wiki/CVpbwLIiMiwGnekKjhMcLXTRnag?from=from_copylink)，这个项目预计将会是一个超长期项目。
 

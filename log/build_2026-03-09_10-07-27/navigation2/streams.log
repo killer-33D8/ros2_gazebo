@@ -1,0 +1,51 @@
+[0.017s] Invoking command in '/home/wyattsher/Desktop/ros2_gazebo/build/navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wyattsher/Desktop/ros2_gazebo/src/navigation2 -DCMAKE_INSTALL_PREFIX=/home/wyattsher/Desktop/ros2_gazebo/install/navigation2
+[0.063s] -- The C compiler identification is GNU 13.3.0
+[0.108s] -- The CXX compiler identification is GNU 13.3.0
+[0.122s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.200s] -- Detecting C compile features - done
+[0.206s] -- Detecting CXX compiler ABI info
+[0.274s] -- Detecting CXX compiler ABI info - done
+[0.279s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.280s] -- Detecting CXX compile features
+[0.280s] -- Detecting CXX compile features - done
+[0.283s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.384s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.463s] -- Found nav2_bringup: 1.3.10 (/opt/ros/jazzy/share/nav2_bringup/cmake)
+[0.517s] -- Configuring done (0.5s)
+[0.518s] -- Generating done (0.0s)
+[0.519s] -- Build files have been written to: /home/wyattsher/Desktop/ros2_gazebo/build/navigation2
+[0.524s] Invoked command in '/home/wyattsher/Desktop/ros2_gazebo/build/navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wyattsher/Desktop/ros2_gazebo/src/navigation2 -DCMAKE_INSTALL_PREFIX=/home/wyattsher/Desktop/ros2_gazebo/install/navigation2
+[0.524s] Invoking command in '/home/wyattsher/Desktop/ros2_gazebo/build/navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wyattsher/Desktop/ros2_gazebo/build/navigation2 -- -j32 -l32
+[0.555s] Invoked command in '/home/wyattsher/Desktop/ros2_gazebo/build/navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wyattsher/Desktop/ros2_gazebo/build/navigation2 -- -j32 -l32
+[0.555s] Invoking command in '/home/wyattsher/Desktop/ros2_gazebo/build/navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wyattsher/Desktop/ros2_gazebo/build/navigation2
+[0.560s] -- Install configuration: ""
+[0.560s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/launch
+[0.561s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/launch/go2_navigation2.launch.py
+[0.561s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/param
+[0.561s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/param/go2_nav2.yaml
+[0.561s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/config
+[0.561s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/config/robots.yaml
+[0.561s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/maps
+[0.561s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/maps/warehouse_map.yaml
+[0.561s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/maps/warehouse_map.pgm
+[0.562s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/rviz
+[0.562s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/rviz/go2_nav2.rviz
+[0.562s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/ament_index/resource_index/package_run_dependencies/navigation2
+[0.562s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/ament_index/resource_index/parent_prefix_path/navigation2
+[0.562s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/environment/ament_prefix_path.sh
+[0.562s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/environment/ament_prefix_path.dsv
+[0.563s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/environment/path.sh
+[0.563s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/environment/path.dsv
+[0.563s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/local_setup.bash
+[0.563s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/local_setup.sh
+[0.563s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/local_setup.zsh
+[0.563s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/local_setup.dsv
+[0.563s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/package.dsv
+[0.563s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/ament_index/resource_index/packages/navigation2
+[0.563s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/cmake/navigation2Config.cmake
+[0.563s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/cmake/navigation2Config-version.cmake
+[0.563s] -- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/package.xml
+[0.574s] Invoked command in '/home/wyattsher/Desktop/ros2_gazebo/build/navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wyattsher/Desktop/ros2_gazebo/build/navigation2

@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found nav2_bringup: 1.3.10 (/opt/ros/jazzy/share/nav2_bringup/cmake)
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/wyattsher/Desktop/ros2_gazebo/build/navigation2
+-- Install configuration: ""
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/launch
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/launch/go2_navigation2.launch.py
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/param
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/param/go2_nav2.yaml
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/config
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/config/robots.yaml
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/maps
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/maps/warehouse_map.yaml
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/maps/warehouse_map.pgm
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/rviz
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/rviz/go2_nav2.rviz
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/ament_index/resource_index/package_run_dependencies/navigation2
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/ament_index/resource_index/parent_prefix_path/navigation2
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/environment/ament_prefix_path.sh
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/environment/ament_prefix_path.dsv
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/environment/path.sh
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/environment/path.dsv
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/local_setup.bash
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/local_setup.sh
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/local_setup.zsh
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/local_setup.dsv
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/package.dsv
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/ament_index/resource_index/packages/navigation2
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/cmake/navigation2Config.cmake
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/cmake/navigation2Config-version.cmake
+-- Installing: /home/wyattsher/Desktop/ros2_gazebo/install/navigation2/share/navigation2/package.xml

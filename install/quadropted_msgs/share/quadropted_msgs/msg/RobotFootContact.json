@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "quadropted_msgs/msg/RobotFootContact",
+      "fields": [
+        {
+          "name": "contacts",
+          "type": {
+            "type_id": 63,
+            "capacity": 4,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "quadropted_msgs/msg/RobotFootContact",
+      "hash_string": "RIHS01_cd9c8a8e64c95ee8b60a2c406a124494f24aeaf06b095139fd16845e719f0be1"
+    }
+  ]
+}

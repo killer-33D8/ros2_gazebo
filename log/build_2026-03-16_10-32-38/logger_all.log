@@ -1,0 +1,383 @@
+[0.080s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'gazebo_sim']
+[0.080s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['gazebo_sim'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7cd6b5da49e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cd6b5da4650>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cd6b5da4650>>, mixin_verb=('build',))
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.110s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wyattsher/Desktop/ros2_gazebo'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges) by extension 'ros'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges) by extensions ['cmake', 'python']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges) by extension 'cmake'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges) by extension 'python'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges) by extensions ['python_setup_py']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges) by extension 'python_setup_py'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ICRA2024_QRC_Simulation_Map) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ICRA2024_QRC_Simulation_Map) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ICRA2024_QRC_Simulation_Map) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ICRA2024_QRC_Simulation_Map) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ICRA2024_QRC_Simulation_Map) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ICRA2024_QRC_Simulation_Map) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ICRA2024_QRC_Simulation_Map) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ICRA2024_QRC_Simulation_Map) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ICRA2024_QRC_Simulation_Map) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'ICRA2024_Quadruped_Robot_Challenges/ICRA2024_QRC_Simulation_Map' with type 'ros.catkin' and name 'ICRA2024_Quadruped_Competition'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/docs) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/docs) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/docs) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/docs) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/docs) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/docs) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/docs) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/docs) by extension 'ros'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/docs) by extensions ['cmake', 'python']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/docs) by extension 'cmake'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/docs) by extension 'python'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/docs) by extensions ['python_setup_py']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/docs) by extension 'python_setup_py'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code) by extension 'ros'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code) by extensions ['cmake', 'python']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code) by extension 'cmake'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code) by extension 'python'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code) by extensions ['python_setup_py']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code) by extension 'python_setup_py'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth) by extension 'ros'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth) by extensions ['cmake', 'python']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth) by extension 'cmake'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth) by extension 'python'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth) by extensions ['python_setup_py']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth) by extension 'python_setup_py'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/image) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/image) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/image) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/image) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/image) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/image) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/image) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/image) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/image) by extension 'ros'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/image) by extensions ['cmake', 'python']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/image) by extension 'cmake'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/image) by extension 'python'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/image) by extensions ['python_setup_py']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/image) by extension 'python_setup_py'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python) by extension 'ros'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python) by extensions ['cmake', 'python']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python) by extension 'cmake'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python) by extension 'python'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python) by extensions ['python_setup_py']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python) by extension 'python_setup_py'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/Image) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/Image) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/Image) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/Image) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/Image) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/Image) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/Image) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/Image) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/Image) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/Image) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/Image) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/Image) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/Image) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/Image) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/README_Korean) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/README_Korean) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/README_Korean) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/README_Korean) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/README_Korean) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/README_Korean) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/README_Korean) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/README_Korean) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/README_Korean) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/README_Korean) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/README_Korean) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/README_Korean) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/README_Korean) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/README_Korean) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/__pycache__) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/__pycache__) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/__pycache__) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/__pycache__) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/__pycache__) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/__pycache__) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/__pycache__) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/__pycache__) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/__pycache__) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/__pycache__) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/__pycache__) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/__pycache__) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/Moth/python/__pycache__) by extension 'python_setup_py'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/unitree_sdk2-main) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/unitree_sdk2-main) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/unitree_sdk2-main) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/unitree_sdk2-main) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/unitree_sdk2-main) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/unitree_sdk2-main) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/unitree_sdk2-main) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/unitree_sdk2-main) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/unitree_sdk2-main) by extension 'ros'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/unitree_sdk2-main) by extensions ['cmake', 'python']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/unitree_sdk2-main) by extension 'cmake'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/unitree_sdk2-main) by extension 'python'
+[0.137s] DEBUG:colcon.colcon_core.package_identification:Package 'ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/unitree_sdk2-main' with type 'cmake' and name 'helloworld'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ros'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['cmake', 'python']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'cmake'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'python'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['python_setup_py']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'python_setup_py'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer' with type 'ros.ament_cmake' and name 'cartographer'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extension 'ros'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extensions ['cmake', 'python']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extension 'cmake'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extension 'python'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extensions ['python_setup_py']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extension 'python_setup_py'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extension 'ignore_ament_install'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extensions ['colcon_pkg']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extension 'colcon_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extension 'ros'
+[0.142s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_sim' with type 'ros.ament_cmake' and name 'gazebo_sim'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extension 'ros'
+[0.144s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go1_description' with type 'ros.ament_cmake' and name 'go1_description'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extension 'ros'
+[0.145s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_description' with type 'ros.ament_cmake' and name 'go2_description'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2) by extension 'ros'
+[0.146s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation2' with type 'ros.ament_cmake' and name 'navigation2'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extension 'ros'
+[0.146s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadropted_controller' with type 'ros.ament_cmake' and name 'quadropted_controller'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extension 'ros'
+[0.147s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadropted_msgs' with type 'ros.ament_cmake' and name 'quadropted_msgs'
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.161s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ICRA2024_Quadruped_Competition' in 'ICRA2024_Quadruped_Robot_Challenges/ICRA2024_QRC_Simulation_Map'
+[0.161s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cartographer' in 'src/cartographer'
+[0.161s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'go2_description' in 'src/go2_description'
+[0.161s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'helloworld' in 'ICRA2024_Quadruped_Robot_Challenges/ieee-qrc-2024-device_code/unitree_sdk2-main'
+[0.161s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'navigation2' in 'src/navigation2'
+[0.161s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'quadropted_controller' in 'src/quadropted_controller'
+[0.161s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'quadropted_msgs' in 'src/quadropted_msgs'
+[0.161s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'go1_description' in 'src/go1_description'
+[0.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.165s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 425 installed packages in /opt/ros/jazzy
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_target' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.201s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wyattsher/Desktop/ros2_gazebo/build/gazebo_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim', 'merge_install': False, 'path': '/home/wyattsher/Desktop/ros2_gazebo/src/gazebo_sim', 'symlink_install': False, 'test_result_base': None}
+[0.201s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.202s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.202s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wyattsher/Desktop/ros2_gazebo/src/gazebo_sim' with build type 'ament_cmake'
+[0.202s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wyattsher/Desktop/ros2_gazebo/src/gazebo_sim'
+[0.205s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.205s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.205s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyattsher/Desktop/ros2_gazebo/build/gazebo_sim': AMENT_PREFIX_PATH=/home/wyattsher/Desktop/ros2_gazebo/install/navigation2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyattsher/Desktop/ros2_gazebo/install/navigation2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wyattsher/Desktop/ros2_gazebo/build/gazebo_sim -- -j32 -l32
+[0.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyattsher/Desktop/ros2_gazebo/build/gazebo_sim' returned '0': AMENT_PREFIX_PATH=/home/wyattsher/Desktop/ros2_gazebo/install/navigation2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyattsher/Desktop/ros2_gazebo/install/navigation2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wyattsher/Desktop/ros2_gazebo/build/gazebo_sim -- -j32 -l32
+[0.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyattsher/Desktop/ros2_gazebo/build/gazebo_sim': AMENT_PREFIX_PATH=/home/wyattsher/Desktop/ros2_gazebo/install/navigation2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyattsher/Desktop/ros2_gazebo/install/navigation2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wyattsher/Desktop/ros2_gazebo/build/gazebo_sim
+[0.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_sim)
+[0.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyattsher/Desktop/ros2_gazebo/build/gazebo_sim' returned '0': AMENT_PREFIX_PATH=/home/wyattsher/Desktop/ros2_gazebo/install/navigation2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyattsher/Desktop/ros2_gazebo/install/navigation2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wyattsher/Desktop/ros2_gazebo/build/gazebo_sim
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim' for CMake module files
+[0.328s] Level 1:colcon.colcon_core.environment:checking '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim' for CMake config files
+[0.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_sim', 'cmake_prefix_path')
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/gazebo_sim/hook/cmake_prefix_path.ps1'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/gazebo_sim/hook/cmake_prefix_path.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/gazebo_sim/hook/cmake_prefix_path.sh'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/bin'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/lib/pkgconfig/gazebo_sim.pc'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/lib/python3.12/site-packages'
+[0.330s] Level 1:colcon.colcon_core.environment:checking '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/bin'
+[0.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/gazebo_sim/package.ps1'
+[0.330s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/gazebo_sim/package.dsv'
+[0.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/gazebo_sim/package.sh'
+[0.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/gazebo_sim/package.bash'
+[0.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/gazebo_sim/package.zsh'
+[0.332s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/colcon-core/packages/gazebo_sim)
+[0.332s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_sim)
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim' for CMake module files
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim' for CMake config files
+[0.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_sim', 'cmake_prefix_path')
+[0.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/gazebo_sim/hook/cmake_prefix_path.ps1'
+[0.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/gazebo_sim/hook/cmake_prefix_path.dsv'
+[0.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/gazebo_sim/hook/cmake_prefix_path.sh'
+[0.333s] Level 1:colcon.colcon_core.environment:checking '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/bin'
+[0.333s] Level 1:colcon.colcon_core.environment:checking '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/lib/pkgconfig/gazebo_sim.pc'
+[0.334s] Level 1:colcon.colcon_core.environment:checking '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/lib/python3.12/site-packages'
+[0.334s] Level 1:colcon.colcon_core.environment:checking '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/bin'
+[0.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/gazebo_sim/package.ps1'
+[0.334s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/gazebo_sim/package.dsv'
+[0.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/gazebo_sim/package.sh'
+[0.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/gazebo_sim/package.bash'
+[0.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/gazebo_sim/package.zsh'
+[0.335s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyattsher/Desktop/ros2_gazebo/install/gazebo_sim/share/colcon-core/packages/gazebo_sim)
+[0.335s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.336s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.336s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.336s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.349s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.350s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.350s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.358s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.358s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wyattsher/Desktop/ros2_gazebo/install/local_setup.ps1'
+[0.359s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wyattsher/Desktop/ros2_gazebo/install/_local_setup_util_ps1.py'
+[0.360s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wyattsher/Desktop/ros2_gazebo/install/setup.ps1'
+[0.360s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wyattsher/Desktop/ros2_gazebo/install/local_setup.sh'
+[0.361s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wyattsher/Desktop/ros2_gazebo/install/_local_setup_util_sh.py'
+[0.361s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wyattsher/Desktop/ros2_gazebo/install/setup.sh'
+[0.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wyattsher/Desktop/ros2_gazebo/install/local_setup.bash'
+[0.362s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wyattsher/Desktop/ros2_gazebo/install/setup.bash'
+[0.362s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wyattsher/Desktop/ros2_gazebo/install/local_setup.zsh'
+[0.363s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wyattsher/Desktop/ros2_gazebo/install/setup.zsh'
