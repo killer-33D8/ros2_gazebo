@@ -1,16 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <sdf version='1.7'>
   <world name='default'>
-    <plugin filename="libignition-gazebo-physics-system.so" name="ignition::gazebo::systems::Physics">
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics">
     </plugin>
-    <plugin filename="libignition-gazebo-scene-broadcaster-system.so" name="ignition::gazebo::systems::SceneBroadcaster">
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster">
     </plugin>
-    <plugin filename="libignition-gazebo-user-commands-system.so" name="ignition::gazebo::systems::UserCommands">
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands">
     </plugin>
-    <plugin filename="libignition-gazebo-sensors-system.so" name="ignition::gazebo::systems::Sensors">
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
       <render_engine>ogre2</render_engine>
     </plugin>
-    <plugin filename="libignition-gazebo-imu-system.so" name="ignition::gazebo::systems::Imu">
+    <plugin filename="gz-sim-imu-system" name="gz::sim::systems::Imu">
     </plugin>
 
     <light type='directional' name='direct_light'>
@@ -28,31 +32,31 @@
       <direction>0 0 -1</direction>
     </light>
 
-    <!-- 地平面：防止机器人掉落 -->
+    <!-- 地平面：薄 box 更可靠，防止机器人掉落（中心在 z=0，上表面约 z=0.005） -->
     <model name='ground_plane'>
       <static>true</static>
       <link name='link'>
         <collision name='collision'>
           <geometry>
-            <plane>
-              <normal>0 0 1</normal>
-              <size>100 100</size>
-            </plane>
+            <box>
+              <size>200 200 0.01</size>
+            </box>
           </geometry>
           <surface>
             <friction>
-              <ode/>
+              <ode>
+                <mu>1.0</mu>
+                <mu2>1.0</mu2>
+              </ode>
             </friction>
-            <bounce/>
             <contact/>
           </surface>
         </collision>
         <visual name='visual'>
           <geometry>
-            <plane>
-              <normal>0 0 1</normal>
-              <size>100 100</size>
-            </plane>
+            <box>
+              <size>200 200 0.01</size>
+            </box>
           </geometry>
           <material>
             <ambient>0.8 0.8 0.8 1</ambient>
@@ -61,7 +65,7 @@
           </material>
         </visual>
       </link>
-      <pose>0 0 0 0 0 0</pose>
+      <pose>0 0 -0.005 0 0 0</pose>
     </model>
 
     <!-- ICRA2024 map (flat): add model after converting URDF to SDF and installing under gazebo_sim/models/icra_map_flat/ -->
