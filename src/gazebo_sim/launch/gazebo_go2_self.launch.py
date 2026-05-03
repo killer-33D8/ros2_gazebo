@@ -41,12 +41,19 @@ def generate_launch_description():
     )
 
     enable_rviz = LaunchConfiguration('enable_rviz', default='true')
+    gz_world_name = LaunchConfiguration('gz_world_name', default='default')
     declare_enable_rviz = DeclareLaunchArgument(
         name='enable_rviz', default_value=enable_rviz, description='Enable rviz launch'
+    )
+    declare_gz_world_name = DeclareLaunchArgument(
+        name='gz_world_name',
+        default_value='default',
+        description='Gazebo world name used by pose bridges'
     )
 
     ld.add_action(declare_enable_rviz)
     ld.add_action(declare_use_sim_time)
+    ld.add_action(declare_gz_world_name)
 
     # ---------- 多机器人全局话题重映射 ----------
     remappings=[
@@ -68,6 +75,17 @@ def generate_launch_description():
         ]
     )
     ld.add_action(ros_gz_bridge_clock)   
+
+    world_pose_bridge = Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        name='world_pose_bridge',
+        output='screen',
+        arguments=[
+            ['/world/', gz_world_name, '/dynamic_pose/info@geometry_msgs/msg/PoseArray[gz.msgs.Pose_V'],
+        ]
+    )
+    ld.add_action(world_pose_bridge)
 
     # ---------- 多机器人循环启动 ----------
     last_action = None
@@ -114,7 +132,6 @@ def generate_launch_description():
                 f'/{namespace}/imu_plugin/out@sensor_msgs/msg/Imu@gz.msgs.IMU',
                 f'/{namespace}/scan@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan',
                 f'/{namespace}/scan/points@sensor_msgs/msg/PointCloud2@gz.msgs.PointCloudPacked',
-                f'/{namespace}/tf@tf2_msgs/msg/TFMessage@gz.msgs.Pose_V',
                 f'/{namespace}/joint_states@sensor_msgs/msg/JointState@gz.msgs.Model',
                 f'/{namespace}/color/camera_info@sensor_msgs/msg/CameraInfo@gz.msgs.CameraInfo',
                 f'/{namespace}/color/image_raw@sensor_msgs/msg/Image@gz.msgs.Image',
@@ -160,23 +177,20 @@ def generate_launch_description():
             remappings=remappings
         )
 
-        odom = Node(
+        gazebo_truth_odom = Node(
             package='quadropted_controller',
-            executable='QuadrupedOdometryNode.py',
-            name='odom',
+            executable='gazebo_tf_odometry.py',
+            name='gazebo_truth_odom',
             namespace=namespace,
             output='screen',
             parameters=[{
-                "verbose": False,
-                'publish_rate': 50,
-                'open_loop': False,
-                'has_imu_heading': True,
-                'is_gazebo': True,
-                'imu_topic': f'/{namespace}/imu',
+                'source_tf_topic': ['/world/', gz_world_name, '/dynamic_pose/info'],
+                'source_pose_index': 0,
+                'odom_topic': 'odometry/filtered',
                 'base_frame_id': "base_link",
                 'odom_frame_id': "odom",
-                'clock_topic': f'/clock',
-                'enable_odom_tf': True,
+                'publish_tf': True,
+                'use_sim_time': use_sim_time,
             }],
             remappings=remappings
         )
@@ -211,18 +225,6 @@ def generate_launch_description():
             ],
             output='log'
         )
-        robot_localization_file_path = os.path.join(pkg_path, 'config', 'ekf.yaml')
-        # Start robot localization using an Extended Kalman filter
-        start_robot_localization_cmd = Node(
-            package='robot_localization',
-            executable='ekf_node',
-            name='ekf_filter_node',
-            namespace=namespace,
-            output='screen',
-            parameters=[robot_localization_file_path, 
-            {'use_sim_time': use_sim_time}],
-            remappings=remappings)
-
         # 先启动 joint 相关，spawner 退出后再启动 quadruped_controller，避免控制器未就绪
         robot_control_phase1 = GroupAction([
             SetRemap(src="/tf", dst="tf"),
@@ -233,8 +235,7 @@ def generate_launch_description():
         robot_control_phase2 = GroupAction([
             controller,
             cmd_vel_pub,
-            odom,
-            start_robot_localization_cmd,
+            gazebo_truth_odom,
             fake_bms,
         ])
 

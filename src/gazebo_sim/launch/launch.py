@@ -1,5 +1,6 @@
 import os
 import tempfile
+import xml.etree.ElementTree as ET
 from ament_index_python.packages import get_package_share_directory
 
 
@@ -11,6 +12,7 @@ from launch.actions import (
    RegisterEventHandler,
    OpaqueFunction,
    SetEnvironmentVariable,
+   SetLaunchConfiguration,
 )
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
@@ -43,6 +45,9 @@ def create_gazebo_action(context: LaunchContext, package_name: str):
            os.remove(world_file)
            raise
 
+   world_tree = ET.parse(world_file)
+   world_root = world_tree.getroot().find('world')
+   gz_world_name = world_root.get('name') if world_root is not None else 'default'
 
    gazebo_action = IncludeLaunchDescription(
        PythonLaunchDescriptionSource(os.path.join(
@@ -52,11 +57,15 @@ def create_gazebo_action(context: LaunchContext, package_name: str):
            'on_exit_shutdown': 'true'
        }.items()
    )
-   return [gazebo_action]
+   return [
+       SetLaunchConfiguration('gz_world_name', gz_world_name),
+       gazebo_action,
+   ]
 
 
 def choose_launch_file(context, *args, **kwargs):
    use_sensors = LaunchConfiguration('sensors').perform(context)
+   gz_world_name = LaunchConfiguration('gz_world_name').perform(context)
    package_name = 'gazebo_sim'
    pkg_path = get_package_share_directory(package_name)
   
@@ -69,7 +78,10 @@ def choose_launch_file(context, *args, **kwargs):
        IncludeLaunchDescription(
            PythonLaunchDescriptionSource(
                os.path.join(pkg_path, 'launch', launch_file)
-           )
+           ),
+           launch_arguments={
+               'gz_world_name': gz_world_name,
+           }.items(),
        )
    ]
 
@@ -108,6 +120,11 @@ def generate_launch_description():
        default_value='rmuc_2025_world.sdf',
        description='指定要加载的Gazebo世界文件（需放在gazebo_sim/world目录下）'
    ))
+   ld.add_action(DeclareLaunchArgument(
+       'gz_world_name',
+       default_value='default',
+       description='Gazebo world name parsed from the selected SDF'
+   ))
 
 
    gazebo_action = OpaqueFunction(
@@ -139,7 +156,6 @@ def generate_launch_description():
 
 
    return ld
-
 
 
 

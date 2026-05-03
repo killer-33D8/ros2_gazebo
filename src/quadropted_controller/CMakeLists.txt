@@ -12,6 +12,7 @@ install(
 install(PROGRAMS
   scripts/robot_controller_gazebo.py
   scripts/QuadrupedOdometryNode.py
+  scripts/gazebo_tf_odometry.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
